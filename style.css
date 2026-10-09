@@ -1,0 +1,52 @@
+/* VARIABILI */ 
+:root { 
+    --black: #202020; 
+    --dark: #303030; 
+    --white: #ffffff; 
+    --green: #54c878; 
+    --gray: #cccccc; 
+    --border: #555555; 
+} 
+
+/* GENERALE */
+* {
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+}
+body { 
+    font-family: Arial, sans-serif; 
+    background-color: var(--black); 
+    color: var(--white); line-height: 1.6; 
+    } 
+a { 
+    text-decoration: none; 
+    color: var(--white); 
+    } 
+main { 
+    min-height: 80vh; 
+} 
+
+/* HEADER */ 
+header { 
+    padding: 20px 7%; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: var(--dark); 
+} 
+.logo { 
+    font-size: 28px; 
+    font-weight: bold; 
+    color: var(--green); 
+} 
+nav { 
+    display: flex; 
+    gap: 20px; 
+} 
+nav a { 
+    font-size: 14px; 
+} 
+nav a:hover { 
+    color: var(--green); 
+}
